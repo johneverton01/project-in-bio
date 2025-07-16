@@ -16,7 +16,7 @@ export default async function ProfilePage({
       <div className="fixed top-0 left-0 w-full flex justify-center items-center gap-1 py-2 bg-background-tertiary">
         <span>Você está usando a versão trial.</span>
         <Link href={`/(${profileId})/upgrade`}>
-          <button className="text-green-100 font-bold">Faça o upgrade agora</button>
+          <button className="text-green-100 font-bold hover:cursor-pointer">Faça o upgrade agora</button>
         </Link>
       </div>
       <div className="w-1/2 flex justify-center h-min">
